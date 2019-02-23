@@ -7,3 +7,7 @@ So far -
 read-pdf.py 
 -----------
 Tool for reading in PDF files with a few lines of python
+
+words-count.py 
+-------------
+tool for reading in .txt files and returning the 15 most common words

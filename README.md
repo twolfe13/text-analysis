@@ -2,6 +2,9 @@
 Tools for analyzing text with Python
 
 
+
+
+
 So far - 
 
 read-pdf.py 

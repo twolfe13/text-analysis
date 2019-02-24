@@ -1,6 +1,26 @@
 from nltk import word_tokenize
 from collections import Counter
 
+
+"""
+
+Function of script
+------------------
+Read in .txt file and return 15 most common words 
+
+Process
+-------
+1. Read in .txt file, save to variable
+2. Tokenize data saved in variable
+3. Convert all tokens to lower-case tokens
+4. Initailize empty list (later, tokens without 'stop words' will be added)
+5. Loop over lower-cased tokens to check if they don't contain 'stop words', common words with little meaning
+6. Merge two lists of stop words.. one created organic 'plug and test', and one from GitHub  f
+7. If tokens don't contain tokens from our joined lists of 'stop words' append to previously instantiated list
+8. Use Bag of Words to determine the 15 most common words, and print them out 
+
+"""
+
 # Open and read in the data file, save as variable called data
 with open('RB.txt', 'r') as f:
     data=f.read()

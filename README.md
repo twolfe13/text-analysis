@@ -18,3 +18,11 @@ Tool for reading in .txt files and returning the 15 most common words
 scrape-df.py
 ------------
 Scrapes web and puts into dataframe
+
+keywords-bot.py
+---------------
+Snippet of chatbot that looks for certain keywords and returns to user alongside another string
+
+datacamp-py-ml.py
+-----------------
+Snippet of SpaCy python machine learning, word vectors and embeddings
